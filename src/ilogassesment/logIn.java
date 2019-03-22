@@ -6,15 +6,15 @@ import static java.lang.Boolean.*;
 
 public class logIn {
 
-    String userName = "happyUser";
-    String pw = "happyPassword";
+    String userName;
+    String pw;
     Scanner myScanner = new Scanner(System.in);
  //   java.io.Console console = System.console();
 
-    public static void main(String[] args) {
-        logIn mrUser = new logIn();
-        mrUser.getMrUser();
-    }
+//    public static void main(String[] args) {
+//        logIn mrUser = new logIn();
+//        mrUser.getMrUser();
+//    }
 
 
 
@@ -22,6 +22,12 @@ public class logIn {
         if (un.equals("happyUser") && pass.equals("happyPassword"))
             return TRUE;
         else return FALSE;
+    }
+
+
+    public logIn(String userName,String pw){
+        this.userName=userName;
+        this.pw=pw;
     }
 
     public void getMrUser() {
