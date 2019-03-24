@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f25ab465-1aea-4493-8582-e2078fe3f56b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/games/multiplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/switches/parking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DevAcademy/animals/cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DevAcademy/animals/cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DevAcademy/animals/createAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DevAcademy/animals/createAnimal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ilogassesment/logIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ilogassesment/logIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ilogassesment/ops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ilogassesment/ops.java" afterDir="false" />
     </list>
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ilogassesment/logIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="773">
+              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ilogassesment/ops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="176" column="45" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
+            <state relative-caret-position="223">
+              <caret line="221" column="29" selection-start-line="221" selection-start-column="29" selection-end-line="221" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,10 +65,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="1" />
-    <option name="width" value="1084" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
+    <option name="y" value="11" />
+    <option name="width" value="707" />
     <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -77,55 +76,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DevAcademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevAcademy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevAcademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevAcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevAcademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevAcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevAcademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevAcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevAcademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevAcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ilogassesment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevAcademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevAcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="songs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553272131002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553443665905" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -227,12 +183,13 @@
       <option name="presentableId" value="Default" />
       <updated>1553081248775</updated>
       <workItem from="1553081254302" duration="30969000" />
-      <workItem from="1553247668363" duration="10288000" />
+      <workItem from="1553247668363" duration="10899000" />
+      <workItem from="1553375467488" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41257000" />
+    <option name="totallyTimeSpent" value="45570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -248,12 +205,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31960997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30877572" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3163152" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -321,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ilogassesment/logIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="773">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -331,8 +288,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ilogassesment/ops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="176" column="45" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
+        <state relative-caret-position="223">
+          <caret line="221" column="29" selection-start-line="221" selection-start-column="29" selection-end-line="221" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

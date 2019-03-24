@@ -1,12 +1,13 @@
 package ilogassesment;
-
 import java.util.Scanner;
+
+import static java.lang.Boolean.FALSE;
 
 
 public class ops {
     double cAccountBalance = 100.23, jAccountBalance=32.25, sAccountBalance = 60.00, transferAmount;
-    short depositAmount;// withdrawAmount;
-    String logout;
+    short depositAmount;
+
     Scanner myScanner = new Scanner(System.in);
     logIn newUser;
 
@@ -22,9 +23,16 @@ public class ops {
 
         String userName =myScanner.nextLine();
         System.out.println("Please type your password:\n");
+
         String pw = myScanner.nextLine();
         logIn newUser = new logIn(userName,pw);
         newUser.verify(userName,pw);
+        if(newUser.verify(userName,pw)==FALSE)
+        {
+            System.out.println("Wrong username or password, please try again. ");
+            main (new String[] {});
+        }
+
 
         ops newOperation = new ops();
         newOperation.newUser = newUser;
@@ -43,7 +51,7 @@ public class ops {
                     "3. Check balance \n" +
                     "4. Make a deposit \n" +
                     "5. Log out \n");
-            int op = myScanner.nextInt();
+            int op = Integer.parseInt(myScanner.nextLine());
             switch (op) {
                 case 1:
                     transferMoney();
@@ -211,18 +219,27 @@ public class ops {
 
     public void logOut() {
 
-        System.out.println("Aare you sure you want to exit? Submit your answer: yes \\ no \n ");
+        System.out.println("Are you sure you want to exit? Submit your answer: yes \\ no \n ");
         String logout = myScanner.nextLine();
 
         if (logout.equalsIgnoreCase("yes")) {
+            {
+            System.out.println("\nYou have been logged out successfully. Would you like to log in again?  \n yes \\ no \n");
 
-            System.out.println("\nYou have been logged out succesfully. Bye-Bye!");
+                if(myScanner.nextLine().equalsIgnoreCase("yes"))
+                    main (new String[] {});
+                else System.out.println("Bye-bye! see you soon!");
+            }
 
 
-        } else if (logout.equalsIgnoreCase("no")) {
+        } else
+            if (logout.equalsIgnoreCase("no")) {
             System.out.println("\nYou have NOT been logged out yet.");
-
+            pickOperation();
         }
+            else {
+                System.out.println("Please make a choice between YES or NO");
+                   logOut(); }
 
 
     }
